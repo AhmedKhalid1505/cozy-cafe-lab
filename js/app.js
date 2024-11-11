@@ -11,7 +11,7 @@ The cafe’s title is a bit too long.
 
 
    const mainTitle = document.querySelector('#main-title')
-   mainTitle.textContent = 'Welcome to the Cozy Cafe'
+   mainTitle.textContent = 'Welcome to the Cozy Cafe Yemmi'
    mainTitle.style.textAlign = 'center'
 
    //part 2
@@ -20,7 +20,7 @@ The cafe’s title is a bit too long.
      (If you can’t think of a color, bisque, lightsteelblue, 
      and pink are good choices.)*/
 
-document.body.style.backgroundColor = 'bisque'
+  document.body.style.backgroundColor = 'bisque'
 
 
 //part 3
@@ -53,10 +53,14 @@ quote.textContent = "Ahmeds Here, To Help you There"
   and append it to the list.*/
 
   const pastMenu = document.querySelector('#past-menu-items')
- const newPastItem = document.createElement('li')
- newPastItem.textContent = 'Rose Cake'
- parstMenu.appendChild(newPastItem)
+  const newPastItem = document.createElement('li')
+  const newPastItem2 = document.createElement('li')
 
+ newPastItem2.textContent = "Anwaar And Zainb Cake"
+ newPastItem.textContent = 'Rose Cake'
+
+ pastMenu.appendChild(newPastItem)
+ pastMenu.appendChild(newPastItem2)
 
 
  //part 6
@@ -66,9 +70,14 @@ quote.textContent = "Ahmeds Here, To Help you There"
 
 const cafeSpecialties = document.querySelector('#cafe-specialties')
 const newSpecialtyItem = document.createElement('li')
+const newSpecialtyItem2 = document.createElement('li')
 
+newSpecialtyItem2.textContent = "Napila speacel Tea"
 newSpecialtyItem.textContent = "Yemani Tea"
+
 cafeSpecialties.appendChild(newSpecialtyItem)
+cafeSpecialties.appendChild(newSpecialtyItem2)
+
 
 //part 7
 
@@ -80,5 +89,5 @@ cafeSpecialties.appendChild(newSpecialtyItem)
  Make sure the new post matches the style and structure of the other blog 
  posts. Think carefully about the order of element creation and appending.*/
 
- 
+
 
